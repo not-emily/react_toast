@@ -1,0 +1,39 @@
+
+.toast {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 20px 0 40px;
+}
+
+.toast--info {
+    color: #4C7EA1;
+    background-color: #CCE7F4;
+    border: solid 1px #4C7EA1;
+}
+
+.toast--error {
+    color: #AA2E2C;
+    background-color: #EBC7C4;
+    border: solid 1px #AA2E2C;
+}
+
+.toast--success {
+    color: #586D4F;
+    background-color: #DEF3D5;
+    border: solid 1px #586D4F;
+}
+
+.toast--warning {
+    color: #8F7035;
+    background-color: #F7F3D6;
+    border: solid 1px #8F7035;
+}
+
+.toast > .svg-inline--fa {
+    height: 1.5em;
+    margin-right: 25px;
+}
+
